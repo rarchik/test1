@@ -158,6 +158,11 @@
   text-align: center;
 }
 
+.cl17{
+  margin-left: 95px;
+}
+
+
 .slider .prev:hover , .slider .next:hover {
 	background-color: rgb(225,225,225);
 }
