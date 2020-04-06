@@ -131,6 +131,33 @@
 	margin-right: 10px;
 }
 
+.cl14{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.cl15{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  text-transform: uppercase;
+
+}
+
+.cl16{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
 .slider .prev:hover , .slider .next:hover {
 	background-color: rgb(225,225,225);
 }
