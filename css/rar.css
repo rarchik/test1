@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
 .rur{
 	font-weight:bold;
 	color:white;
@@ -6,9 +8,11 @@
 	background-color:black;
 	opacity: 70%;
 }
+
 .rar2{
-	color:white;
-	margin : 10px;
+	color: white;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .slider{
 	height : 300px;
@@ -34,7 +38,7 @@
 }
 
 .cl0{
-    width: 1441px;
+    width: auto;
     height: 549px;
     background: #FFB800;
 }
@@ -65,7 +69,7 @@
 .cl4{
     position: relative;
     top: 100px;
-    left:100px;
+    left:50px;
 }
 .cl5{
     margin-top: 10px;
@@ -77,6 +81,7 @@
 
 .cl6{
     position: relative;
+    text-align: center;
     top: 100px;
     left: 12px;
     right: 12px;
@@ -108,7 +113,7 @@
 }
 
 .cl11{
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
@@ -117,7 +122,7 @@
 }
 
 .cl12{
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 25px;
@@ -132,7 +137,7 @@
 }
 
 .cl14{
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -140,7 +145,7 @@
 }
 
 .cl15{
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
@@ -150,7 +155,7 @@
 }
 
 .cl16{
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -162,6 +167,10 @@
   margin-left: 95px;
 }
 
+.cl18{
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
 .slider .prev:hover , .slider .next:hover {
 	background-color: rgb(225,225,225);
@@ -198,6 +207,7 @@
 .fly:hover {
   animation: 1s linear 0s normal none infinite running fly;
 }
+
 @keyframes fly {
   0% {
     transform: translateX(0);
