@@ -6,7 +6,8 @@
 }
 .rar{
 	background-color:black;
-	opacity: 70%;
+	opacity: 100%;
+  color:white;
 }
 
 .rar2{
@@ -189,6 +190,25 @@
 .cl20{
   padding-right: 0px;
   padding-bottom: 0px;
+}
+
+.cl21{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  margin-bottom: 10px;
+}
+
+.cl22{
+  margin-top: 0px;
+}
+
+.cl23{
+  position: fixed;
+  left: 95%;
+  top: 90%;
+  z-index: 9;
 }
 
 .slider .prev:hover , .slider .next:hover {

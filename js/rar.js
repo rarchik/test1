@@ -13,6 +13,8 @@ function hide()
 	var i = document;
 	var doc = i.getElementById("iddq");
 	doc.style.opacity = 0;
+	doc.style.width = 0;
+	doc.style.height = 0;
 
 }
 
