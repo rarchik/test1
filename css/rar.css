@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');*/
 
 .rur{
 	font-weight:bold;
@@ -209,6 +209,37 @@
   left: 95%;
   top: 90%;
   z-index: 9;
+}
+
+.cl24{
+  margin: 30px;
+  padding-top: 10px;
+  background-color: #DCDCDC;
+  border-radius: 8px;
+}
+
+.cl25{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.cl26{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
 }
 
 .slider .prev:hover , .slider .next:hover {
