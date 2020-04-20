@@ -32,6 +32,13 @@ function showSlide(n){
 	
 }
 
+function show()
+{
+	delay(3000);
+	var i = document;
+	var doc = i.getElementById("iddq");
+	doc.style.opacity = 1;
+}
 
 
 
