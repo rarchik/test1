@@ -15,6 +15,12 @@
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.rar3{
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
 .slider{
 	height : 300px;
 	margin : auto;
@@ -64,7 +70,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     padding-right: 40px;
-    background: #0014C4;
+    background: #392bff;
 }
 
 .cl4{
@@ -244,13 +250,18 @@
   color: #000000;
 }
 
+.cl27{
+  width: 200px;
+  height: 200px;
+}
+
 .slider .prev:hover , .slider .next:hover {
 	background-color: rgb(225,225,225);
 }
 
 
 .rot:hover {
-  animation: 1s linear 0s normal none infinite running rot;
+  animation: 1s ease-out 0s normal none infinite running rot;
 }
 @keyframes rot {
   0% {
@@ -262,7 +273,7 @@
 }
 
 .scal:hover {
-  animation: 1s linear 0s normal none infinite running scal;
+  animation: 1s ease-out 0s normal none infinite running scal;
 }
 @keyframes scal {
   0% {
@@ -277,35 +288,63 @@
 }
 
 .fly:hover {
-  animation: 1s linear 0s normal none infinite running fly;
+  animation: 1s ease-out 0s normal none infinite running fly;
 }
 
 @keyframes fly {
   0% {
     transform: translateX(0px);
   }
-  25%{
-    transform: translateX(10px)
-  }
-  50% {
-    transform: translateX(0px);
-  }
-  75%{
+  33%{
     transform: translateX(-10px)
   }
+  67%{
+    transform: translateX(10px);
+  }
   100%{
-    transform: translateX(0px)
+    transform: translateX(0px);
   }
 }
 
-.bottom__cookie-block{
-  width: 100%
-  height: 48px
-  background-color: #ffffff
-  display: none
-  position: fixed
-  bottom: 0
-  z-index: 100000
-  text-align: center
-  -webkit-transform: translateZ(0)
+.rar3:hover{
+  text-decoration: none;
+  color: #d1d1d1;
+  animation: 2s linear 0s alternate none running txt;
+}
+
+@keyframes txt {
+  0% {
+    color: #d1d1d1;
+  }
+  100%{
+    color: #ffffff;
+  }
+}
+
+.cl3:hover{
+  animation: 1s linear 0s alternate none running bttn;
+}
+
+@keyframes bttn {
+  0% {
+    background: #392bff;
+  }
+  100%{
+    background: #231c87;
+  }
+}
+
+.cl27:hover{
+  animation: 1s linear 0s alternate none running img;
+}
+
+@keyframes img {
+  0% {
+    width: 200px;
+    height: 200px;
+  }
+  100%{
+    width: 230px;
+    height: 230px;
+  }
 }
