@@ -212,7 +212,9 @@
 }
 
 .cl24{
-  margin: 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   padding-top: 10px;
   background-color: #DCDCDC;
   border-radius: 8px;
