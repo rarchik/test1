@@ -14,6 +14,7 @@
 	color: white;
   padding-left: 5px;
   padding-right: 5px;
+  margin-top: 10px;
 }
 
 .rar3{
@@ -199,11 +200,11 @@
 }
 
 .cl21{
-  position: fixed;
+  /*position: fixed;
   left: 0;
   right: 0;
   z-index: 9;
-  margin-bottom: 10px;
+  margin-bottom: 10px;*/
 }
 
 .cl22{
@@ -253,6 +254,17 @@
 .cl27{
   width: 200px;
   height: 200px;
+  transition: 1s;
+}
+
+.cl28{
+  margin-top: 50px;
+}
+
+.cl29{
+  transition: 1s;
+  width: 150px;
+  height: 100px;
 }
 
 .slider .prev:hover , .slider .next:hover {
@@ -280,7 +292,7 @@
     transform: scaleY(1);
   }
   50% {
-    transform: scaleY(1.25);    
+    transform: scaleY(1.1);    
   }
   100% {
     transform: scaleY(1);
@@ -308,43 +320,20 @@
 
 .rar3:hover{
   text-decoration: none;
-  color: #d1d1d1;
-  animation: 2s linear 0s alternate none running txt;
-}
-
-@keyframes txt {
-  0% {
-    color: #d1d1d1;
-  }
-  100%{
-    color: #ffffff;
-  }
+  color: #FFFFFF;
+  text-shadow: #FFFFFF 0 0 10px;
 }
 
 .cl3:hover{
-  animation: 1s linear 0s alternate none running bttn;
-}
-
-@keyframes bttn {
-  0% {
-    background: #392bff;
-  }
-  100%{
-    background: #231c87;
-  }
+  background : #231c87;
 }
 
 .cl27:hover{
-  animation: 1s linear 0s alternate none running img;
+  transform: scale(1.2);
 }
 
-@keyframes img {
-  0% {
-    width: 200px;
-    height: 200px;
-  }
-  100%{
-    width: 230px;
-    height: 230px;
-  }
+.cl29:hover{
+  transform: scale(1.2);
 }
+
+
